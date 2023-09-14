@@ -32,6 +32,7 @@ import { ReactiveFormsModule, FormControl } from '@angular/forms';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import { DropdownUfComponent } from './shared/dropdown-uf/dropdown-uf.component';
 import {NgFor, AsyncPipe} from '@angular/common';
+import { DepoimentoComponent } from './shared/depoimento/depoimento.component';
 
 
 
@@ -51,6 +52,7 @@ import {NgFor, AsyncPipe} from '@angular/common';
     BotaoControleComponent,
     PromocoesComponent,
     DropdownUfComponent,
+    DepoimentoComponent,
   ],
   imports: [
     BrowserModule,
