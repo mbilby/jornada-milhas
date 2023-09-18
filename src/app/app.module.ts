@@ -33,6 +33,7 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import { DropdownUfComponent } from './shared/dropdown-uf/dropdown-uf.component';
 import {NgFor, AsyncPipe} from '@angular/common';
 import { DepoimentoComponent } from './shared/depoimento/depoimento.component';
+import { SeletorPassageiroComponent } from './shared/seletor-passageiro/seletor-passageiro.component';
 
 
 
@@ -53,6 +54,7 @@ import { DepoimentoComponent } from './shared/depoimento/depoimento.component';
     PromocoesComponent,
     DropdownUfComponent,
     DepoimentoComponent,
+    SeletorPassageiroComponent,
   ],
   imports: [
     BrowserModule,
